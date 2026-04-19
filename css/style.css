@@ -3,7 +3,7 @@
    background: #f5f5f5; 
 }
 .app{ 
-   width: 400px; 
+   width: 550px; 
    margin: 50px auto; 
    background: white; 
    padding: 20px; 
@@ -136,3 +136,24 @@ background-color: #138D75;
 .task-item.editing { 
 background-color: #f2e7fe; 
 } 
+/* фикс ширины */
+.task-buttons {
+  display: flex;
+  gap: 6px;
+  min-width: 220px;
+  justify-content: flex-end;
+}
+
+.cancel-btn {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #7F8C8D; 
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cancel-btn:hover {
+  background-color: #626E70;
+}
